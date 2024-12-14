@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="822.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.AdminManageUserAccounts">
+   <children>
+      <TableView layoutX="21.0" layoutY="67.0" prefHeight="297.0" prefWidth="778.0">
+        <columns>
+          <TableColumn prefWidth="118.0" text="Name" />
+          <TableColumn prefWidth="120.0" text="Email" />
+            <TableColumn prefWidth="138.0" text="Address" />
+            <TableColumn prefWidth="98.0" text="Phone" />
+            <TableColumn prefWidth="67.0" text="DoB" />
+            <TableColumn prefWidth="84.0" text="RegDate" />
+            <TableColumn text="Type" />
+            <TableColumn text="Action" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="272.0" layoutY="26.0" prefHeight="17.0" prefWidth="201.0" text="Users">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

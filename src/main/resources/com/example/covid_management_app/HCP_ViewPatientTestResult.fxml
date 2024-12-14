@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.HCPViewPatientTestResult">
+    <children>
+        <TableView layoutX="39.0" layoutY="69.0" prefHeight="295.0" prefWidth="554.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="patientEmailColumn" prefWidth="132.0" text="Patient Email" />
+                <TableColumn fx:id="testDateColumn" prefWidth="105.0" text="Test Date" />
+                <TableColumn fx:id="resultColumn" prefWidth="96.0" text="Result" />
+                <TableColumn fx:id="commentsColumn" prefWidth="145.0" text="Comments" />
+            </columns>
+        </TableView>
+        <Label layoutX="252.0" layoutY="22.0" text="Test Results">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

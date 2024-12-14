@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.AdminGenerateCOVID19Reports">
+   <children>
+      <Label layoutX="72.0" layoutY="49.0" text="Select Report Type" />
+      <ComboBox fx:id="reportTypeCombo" layoutX="183.0" layoutY="45.0" prefHeight="25.0" prefWidth="273.0" />
+      <Button layoutX="478.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleGenerate" text="Generate" />
+      <Button layoutX="268.0" layoutY="319.0" mnemonicParsing="false" onAction="#handleDownload" text="Download" />
+   </children>
+</AnchorPane>

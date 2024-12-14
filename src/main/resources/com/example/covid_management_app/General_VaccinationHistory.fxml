@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.GeneralVaccinationHistory">
+   <children>
+      <TableView fx:id="table" layoutX="25.0" layoutY="64.0" prefHeight="313.0" prefWidth="551.0">
+         <columns>
+            <TableColumn fx:id="bookingDateCol" prefWidth="112.0" text="Booking Date" />
+            <TableColumn fx:id="vaccinationCol" prefWidth="145.0" text="Vaccination Date" />
+            <TableColumn fx:id="locationCol" prefWidth="168.0" text="Location" />
+            <TableColumn fx:id="DoseCol" prefWidth="45.0" text="Dose" />
+            <TableColumn fx:id="statusCol" text="Status" />
+         </columns>
+      </TableView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="33.0" prefHeight="17.0" prefWidth="228.0" text="Vaccination History" textFill="#3150b9">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

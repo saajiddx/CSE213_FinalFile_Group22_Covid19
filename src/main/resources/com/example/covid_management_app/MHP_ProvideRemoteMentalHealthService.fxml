@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.MHPProvideRemoteMentalHealthService">
+    <children>
+        <Label layoutX="109.0" layoutY="80.0" text="Patient Email" />
+        <TextField layoutX="230.0" layoutY="77.0" prefHeight="25.0" prefWidth="297.0" />
+        <Label layoutX="109.0" layoutY="129.0" prefHeight="17.0" prefWidth="112.0" text="Consultation Details" wrapText="true" />
+        <TextArea layoutX="230.0" layoutY="124.0" prefHeight="200.0" prefWidth="297.0" />
+        <Button layoutX="238.0" layoutY="343.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="287.0" text="Submit" />
+        <Label layoutX="144.0" layoutY="28.0" text=" Provide Remote Mental HealthServices">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

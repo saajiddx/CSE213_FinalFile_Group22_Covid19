@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.MHPRecordPatientMentalHealth">
+    <children>
+        <Label layoutX="186.0" layoutY="110.0" text="Select Patient" />
+        <ComboBox layoutX="284.0" layoutY="106.0" prefWidth="150.0" />
+        <Label layoutX="191.0" layoutY="159.0" text="Progress" />
+        <TextField layoutX="285.0" layoutY="155.0" />
+        <Button layoutX="284.0" layoutY="209.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Submit" />
+        <Label layoutX="150.0" layoutY="53.0" text="Add  Patient Mental HealthProgress">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

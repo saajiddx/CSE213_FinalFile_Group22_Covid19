@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.covid_management_app.HCPRecordVaccination">
+   <children>
+      <Label layoutX="176.0" layoutY="100.0" text="Search Paitent" />
+      <TextField fx:id="paitentEmailField" layoutX="275.0" layoutY="96.0" />
+      <Label layoutX="176.0" layoutY="142.0" text="Select Vaccine" />
+      <ComboBox fx:id="vaccineComboBox" layoutX="274.0" layoutY="138.0" prefWidth="150.0" />
+      <Label layoutX="181.0" layoutY="180.0" text="Does" />
+      <TextField fx:id="doseNumberTextField" layoutX="275.0" layoutY="176.0" />
+      <Button fx:id="submitButton" layoutX="274.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Submit" />
+      <Label layoutX="222.0" layoutY="44.0" text="Add Vaccination Record">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
